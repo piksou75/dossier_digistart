@@ -1,0 +1,44 @@
+body{
+	background-color: skyblue;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+
+.bloc{
+	background-color: beige;
+	margin: 10px;
+	padding: 10px;
+
+
+}
+#image{
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	display: block;
+	box-shadow:  10px 5px 5px dimgray;
+
+}
+
+#ftoggle, #fname{
+	background-color: paleturquoise;
+	display: block;
+	width: 80%;
+	height: 60%;
+	margin: auto;
+	text-align: center;
+	font-size: 35px;
+	visibility: visible;
+
+}
+#toggleBtn, #addBtn, #removeBtn{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-weight: 20px;
+	background-color: lightblue;
+	margin-top: 10px;
+
+}

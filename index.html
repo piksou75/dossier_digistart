@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>DOM</title>
+</head>
+<body>
+	<!--Le Titre en rouge-->
+	
+	<h1 id="titre"> Le titre de la page et la couleur est rouge </h1>
+		<!-- La boite divisée en trois parties-->
+		<div id="section1">
+			<!-- Partie image-->
+			<div class="bloc">
+				<img src="./dos_img/pomme.jpeg" id="image">
+			</div>
+			<!-- partie toggle -->
+			<div class="bloc">
+				<nav id ="ftoggle">!! Bonjour !! </nav>
+				<button id="toggleBtn"> Cliquer ici </button> <!--onmouseover="ok()"-->
+			</div>
+			<!-- partie to do liste -->
+			<div class="bloc">
+				 <input type="text" id="fname">
+				<ul id ="fruitList">
+					<li> Pomme </li>
+				</ul>
+				<button id="addBtn"> Ajouter </button>
+				<button id="removeBtn"> Supprimer </button>
+			</div>
+
+		</div>
+		<script type="text/javascript" src="javascript.js"></script>
+	
+</body>
+</html>
